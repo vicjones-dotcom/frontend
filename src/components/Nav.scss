@@ -1,0 +1,33 @@
+@import "../assets/styles/typography";
+@import "../assets/styles/variables";
+.nav {
+  width: 100%;
+  display: flex;
+  background-color: $primary-colour;
+  font-family: $primary-font;
+  font-size: $font-L;
+  &__heading {
+    position: absolute;
+    left: 5px;
+  }
+  &__link {
+    margin: 20px;
+    display: flex;
+    text-decoration: none;
+    color: $black-colour;
+  }
+  &__link:hover {
+    background: $contrast-colour;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+  }
+  &__emotions-link {
+    position: absolute;
+    right: 5px;
+  }
+  &__register-emotions-link {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+  }
+}

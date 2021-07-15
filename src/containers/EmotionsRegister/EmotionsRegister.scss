@@ -1,0 +1,45 @@
+@import "../../assets/styles/typography";
+@import "../../assets/styles/variables";
+.emotions-register {
+  font-family: $primary-font;
+  &__heading {
+    font-family: $primary-font;
+    font-size: $font-XL;
+  }
+  &__form {
+    height: 50vh;
+    border: 1px solid $secondary-colour;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 20px auto;
+    font-size: $font-L;
+    background-color: $primary-colour;
+    border-radius: 10px;
+  }
+  &__input {
+    height: 60px;
+    border-radius: 10px;
+    font-size: $font-L;
+    font-family: $primary-font;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  &__btn {
+    background: $contrast-colour;
+    padding: 16px 16px;
+    transition: all 0.5s ease-out;
+    border-radius: 10px;
+    font-family: $primary-font;
+    font-size: $font-L;
+    width: 40%;
+    border: 1px solid $contrast-colour;
+    margin: 20px auto;
+  }
+  &__btn:hover {
+    cursor: pointer;
+    background-color: $black-colour;
+    color: $contrast-colour;
+  }
+}

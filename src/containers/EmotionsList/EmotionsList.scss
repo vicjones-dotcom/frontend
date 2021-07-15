@@ -1,0 +1,34 @@
+@import "../../assets/styles/typography";
+@import "../../assets/styles/variables";
+.emotions {
+  font-family: $primary-font;
+  font-size: $font-L;
+
+  &__heading {
+    font-family: $primary-font;
+    font-weight: bold;
+    font-size: $font-XL;
+  }
+  &__img {
+    width: 40%;
+    display: flex;
+    margin: 20px auto;
+  }
+  &__list {
+    width: 20%;
+    border: 5px solid $primary-colour;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  &__delete {
+    position: absolute;
+    background: #fc6681;
+    border: #fc6681;
+    font-size: 20px;
+
+    // border-radius: 40px;
+  }
+  &__delete:hover {
+    cursor: pointer;
+  }
+}
